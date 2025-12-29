@@ -1,0 +1,85 @@
+{
+  "user": {
+    "name": "Avery / 王洁",
+    "background": {
+      "companies": ["上海与你信息科技有限公司", "Su Architect (NYC)", "爱坤建筑设计"],
+      "roles": ["AI Product Manager", "Architect", "Product Designer"],
+      "education": ["University of Edinburgh - Architecture & Urban Design", "Taiwan Tech - Architecture + CS"],
+      "expertise": [
+        "AI Product Management",
+        "Architecture & Urban Design",
+        "Hardware Development (ESP32, RPi)",
+        "Parametric Design",
+        "Cross-functional Team Leadership",
+        "System Thinking"
+      ],
+      "interests": [
+        "AI-aided creativity",
+        "Hardware hacking",
+        "Cyberdeck builds",
+        "Novel writing",
+        "Technical documentation",
+        "Career development"
+      ],
+      "languages": ["English", "Chinese"],
+      "location": "Shanghai/International"
+    },
+    "currentStatus": "Job seeking - AI Product Manager roles",
+    "customContext": "Unique combination of architecture + AI product management + hardware hacking. Focuses on systematic thinking and technical implementation.",
+    "publicProfile": false
+  },
+  "organizationMethod": "PARA",
+  "fileNamingPattern": "YYYY-MM-DD-CamelCase-Descriptive",
+  "primaryUses": [
+    "job search & career development",
+    "AI product research",
+    "project portfolio",
+    "technical learning",
+    "architecture projects",
+    "daily notes & knowledge management",
+    "professional writing"
+  ],
+  "tools": {
+    "geminiVision": true,
+    "firecrawl": true,
+    "git": true
+  },
+  "projects": [
+    "Job Search & Career",
+    "Claude Code Best Practices",
+    "AI-Aided Novel Writing",
+    "ESP32-S3-Sense Autodiary Tool",
+    "Cyberdeck (Raspberry Pi 5)",
+    "AI-Aided Architecture Design"
+  ],
+  "areas": [
+    "Finance",
+    "Health",
+    "Professional Network",
+    "Career Development",
+    "AI Product Management Knowledge",
+    "Architecture & Design",
+    "Technical Skills Development"
+  ],
+  "resources": [
+    "Job Search Intelligence",
+    "Claude Code Documentation",
+    "AI Writing Tools",
+    "ESP32/IoT Development",
+    "Raspberry Pi & Cyberdeck",
+    "AI Architecture Tools",
+    "Finance Management",
+    "Health & Wellness",
+    "Networking Strategies",
+    "Career Development Resources"
+  ],
+  "workflows": {
+    "hardwareDocumentation": true,
+    "codeSnippetManagement": true,
+    "projectBuildLogs": true,
+    "technicalResearch": true,
+    "weeklyReview": true
+  },
+  "setupDate": "2025-12-30",
+  "lastUpdated": "2025-12-30"
+}

@@ -31,3 +31,37 @@ pnpm-lock.yaml
 
 # Never commit real API keys
 *_API_KEY
+
+# Obsidian workspace files (personal settings)
+.obsidian/workspace*
+.obsidian/hotkeys.json
+.obsidian/core-plugins.json
+.obsidian/community-plugins.json
+
+# Build outputs
+dist/
+build/
+.next/
+.nuxt/
+
+# IDE files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Personal/private notes (uncomment if needed)
+# 00_Inbox/Private/
+# Personal-Notes/
