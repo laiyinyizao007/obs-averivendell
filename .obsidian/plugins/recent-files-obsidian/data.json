@@ -1,24 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Common Claude Code Prompts",
-      "path": "06_Metadata/Reference/Common Claude Code Prompts.md"
-    },
-    {
       "basename": "2025-12-30",
-      "path": "2025-12-30.md"
+      "path": "00_Inbox/2025-12-30.md"
     },
     {
       "basename": "Home",
       "path": "Home.md"
     },
     {
-      "basename": "Software Architecture",
-      "path": "Software Architecture.md"
+      "basename": "README",
+      "path": "00_Inbox/README.md"
     },
     {
-      "basename": "Untitled",
-      "path": "Untitled.base"
+      "basename": "Common Claude Code Prompts",
+      "path": "06_Metadata/Reference/Common Claude Code Prompts.md"
+    },
+    {
+      "basename": "Software Architecture",
+      "path": "Software Architecture.md"
     }
   ],
   "omittedPaths": [],
