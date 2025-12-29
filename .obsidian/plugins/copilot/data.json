@@ -12,7 +12,7 @@
   "azureOpenAIApiDeploymentName": "",
   "azureOpenAIApiVersion": "",
   "azureOpenAIApiEmbeddingDeploymentName": "",
-  "googleApiKey": "",
+  "googleApiKey": "AIzaSyBxFxElXpl_w5rELCB9mml85DReAAanofQ",
   "openRouterAiApiKey": "",
   "xaiApiKey": "",
   "mistralApiKey": "",
@@ -258,6 +258,11 @@
       "capabilities": [
         "reasoning"
       ]
+    },
+    {
+      "name": "gemini-2.5-flash-image",
+      "provider": "google",
+      "enabled": true
     }
   ],
   "activeEmbeddingModels": [
@@ -382,5 +387,5 @@
   "maxRecentConversations": 30,
   "enableSavedMemory": true,
   "quickCommandIncludeNoteContext": true,
-  "autoIncludeTextSelection": false
+  "autoIncludeTextSelection": true
 }
