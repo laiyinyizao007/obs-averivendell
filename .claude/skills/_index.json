@@ -21,6 +21,13 @@
       "path": "skills/second-brain/",
       "description": "Self-evolving second brain with 6 auto-activating skills",
       "layer": 2
+    },
+    "obsidian-study-vault-builder": {
+      "enabled": true,
+      "type": "education",
+      "path": "skills/obsidian-study-vault-builder/SKILL.md",
+      "description": "Build comprehensive, mobile-compatible study vaults from academic materials",
+      "layer": 1
     }
   }
 }
