@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "registry": {
+    "plugin-dev": {
+      "enabled": false,
+      "type": "core",
+      "path": "skills/plugin-dev/SKILL.md",
+      "description": "Obsidian plugin development skill with 27 ESLint rules",
+      "layer": 1
+    },
+    "pkm": {
+      "enabled": false,
+      "type": "automation",
+      "path": "skills/pkm/",
+      "description": "PKM system with goal tracking and workflow automation",
+      "layer": 2
+    },
+    "second-brain": {
+      "enabled": false,
+      "type": "intelligence",
+      "path": "skills/second-brain/",
+      "description": "Self-evolving second brain with 6 auto-activating skills",
+      "layer": 2
+    }
+  }
+}

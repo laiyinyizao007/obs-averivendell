@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "registry": {
+    "pkm": {
+      "enabled": false,
+      "agents": [
+        "note-organizer",
+        "weekly-reviewer",
+        "goal-aligner",
+        "inbox-processor"
+      ],
+      "path": "agents/pkm/",
+      "layer": 2
+    }
+  }
+}

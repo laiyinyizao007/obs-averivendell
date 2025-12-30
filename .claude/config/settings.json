@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "layers": {
+    "layer1": {
+      "enabled": false,
+      "description": "Foundation - Plugin Dev Skill"
+    },
+    "layer2": {
+      "enabled": false,
+      "features": {
+        "pkm": {
+          "enabled": false,
+          "permissions": {
+            "fileRead": ["*"],
+            "fileWrite": ["00_Inbox", "06_Metadata"],
+            "commandExecution": true
+          }
+        },
+        "secondBrain": {
+          "enabled": false
+        }
+      }
+    },
+    "layer3": {
+      "enabled": false,
+      "features": {
+        "mcpServer": {
+          "enabled": false,
+          "port": 22360
+        },
+        "cliPlugin": {
+          "enabled": false,
+          "cliPath": ""
+        }
+      }
+    }
+  },
+  "featureToggles": {
+    "goalTracking": {
+      "enabled": false,
+      "strategy": "pkm"
+    },
+    "weeklyReview": {
+      "enabled": false,
+      "pipeline": ["pkm/collection"]
+    }
+  }
+}
