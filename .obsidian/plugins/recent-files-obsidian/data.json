@@ -5,12 +5,12 @@
       "path": "00_Inbox/2025-12-30.md"
     },
     {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
       "basename": "README",
       "path": "00_Inbox/README.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
     },
     {
       "basename": "Common Claude Code Prompts",
