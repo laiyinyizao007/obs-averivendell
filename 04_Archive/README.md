@@ -1,5 +1,7 @@
 # 🗄️ Archive
 
+> **Quick Links:** [What is the Archive?](@.claude/rules/para-method-fundamentals.md#What-is-the-Archive) | [File Naming](@.claude/rules/file-naming-conventions.md#04_Archive) | [PARA Method](@.claude/rules/para-method-fundamentals.md)
+
 Inactive items preserved for future reference.
 
 ## Purpose

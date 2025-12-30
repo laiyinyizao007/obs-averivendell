@@ -1,5 +1,7 @@
 # 📎 Attachments
 
+> **Quick Links:** [Attachment Management](@.claude/rules/para-method-fundamentals.md#05_Attachments---The-Asset-Store) | [File Naming](@.claude/rules/file-naming-conventions.md#05_Attachments) | [Helper Scripts](@.claude/rules/helper-scripts-reference.md#Attachments-Management)
+
 Storage for images, PDFs, and other non-text files.
 
 ## Purpose

@@ -1,5 +1,7 @@
 # 🎯 Projects
 
+> **Quick Links:** [What is a Project?](@.claude/rules/para-method-fundamentals.md#What-is-a-Project) | [Project vs Area](@.claude/rules/para-method-fundamentals.md#Project-vs-Area-Examples) | [File Naming](@.claude/rules/file-naming-conventions.md#01_Projects)
+
 Active initiatives with specific outcomes and deadlines.
 
 ## Purpose

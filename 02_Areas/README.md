@@ -1,5 +1,7 @@
 # 🔄 Areas
 
+> **Quick Links:** [What is an Area?](@.claude/rules/para-method-fundamentals.md#What-is-an-Area) | [Area vs Project](@.claude/rules/para-method-fundamentals.md#Project-vs-Area-Examples) | [File Naming](@.claude/rules/file-naming-conventions.md#02_Areas)
+
 Ongoing responsibilities and spheres of activity you maintain over time.
 
 ## Purpose

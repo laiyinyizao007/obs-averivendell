@@ -1,5 +1,7 @@
 # 📥 Inbox
 
+> **Quick Links:** [PARA Method](@.claude/rules/para-method-fundamentals.md#00_Inbox---The-Entry-Point) | [File Naming](@.claude/rules/file-naming-conventions.md#00_Inbox) | [Thinking Mode](@.claude/rules/thinking-vs-writing-mode.md)
+
 Your capture zone for new ideas, quick thoughts, and unprocessed information.
 
 ## Purpose

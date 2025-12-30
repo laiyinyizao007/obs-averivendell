@@ -1,5 +1,7 @@
 # 📚 Resources
 
+> **Quick Links:** [What is a Resource?](@.claude/rules/para-method-fundamentals.md#What-is-a-Resource) | [File Naming](@.claude/rules/file-naming-conventions.md#03_Resources) | [Thinking Mode](@.claude/rules/thinking-vs-writing-mode.md)
+
 Your personal knowledge base of reference materials and evergreen notes.
 
 ## Purpose
