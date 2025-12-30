@@ -102,3 +102,17 @@ Create a weekly synthesis note:
 - Clean up inbox
 - Update project status
 - Plan next week's focus
+
+## Related Commands
+
+- `/weekly` (PKM) - **Alternative**: 30-minute structured GTD review (faster, more action-oriented)
+- `/daily` - Create daily note
+- `/daily-review` - Evening reflection and planning
+
+---
+
+*Command Version: 1.0*
+*Compatible with: Claude Code CLI*
+*Time Investment: 60-90 minutes*
+
+**Pro Tip:** Choose `/weekly-synthesis` if you prefer deep thinking and pattern recognition. Choose `/weekly` (PKM) if you prefer structured checklists and quick reviews!

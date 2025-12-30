@@ -103,7 +103,6 @@ const TEMPLATE_PATH = dayOfWeek === 1
 - Check file naming convention
 
 ## Related Commands
-- `/daily-review` - **Evening**: Reflect on today's accomplishments and plan tomorrow (use after /daily)
 - `/weekly` - Create weekly review
 - `/push` - Save changes to Git
 - `/onboard` - Load context

@@ -4,55 +4,80 @@ Pre-configured commands to enhance your Claude Code + Obsidian workflow.
 
 ## Available Commands
 
-### 🤔 thinking-partner
+### Daily Workflow (Complementary - Use Both!)
 
-Engage Claude as a thinking partner for exploring complex problems.
-
+**Morning Setup:**
 ```
-/thinking-partner
+/daily
 ```
+Create today's note with template variables ({{date}}, {{date-1}}, {{date+1}})
+- **Time**: 2-5 minutes
+- **Best for**: Morning routine, note creation
 
-Best for: Brainstorming, problem exploration, developing ideas
-
-### 📥 inbox-processor
-
-Process and organize items in your Inbox folder.
-
-```
-/inbox-processor
-```
-
-Best for: Weekly inbox cleanup, organizing captures
-
-### 🔍 research-assistant
-
-Conduct thorough research on any topic using your vault.
-
-```
-/research-assistant
-```
-
-Best for: Deep dives, literature reviews, knowledge synthesis
-
-### 📅 daily-review
-
-End-of-day review to capture progress and plan tomorrow.
-
+**Evening Reflection:**
 ```
 /daily-review
 ```
+Reflect on accomplishments, insights, and set tomorrow's priorities
+- **Time**: 10-15 minutes
+- **Best for**: Daily shutdown ritual, progress tracking
 
-Best for: Daily shutdown ritual, reflection
+### Weekly Workflow (Choose Your Style)
 
-### 📊 weekly-synthesis
+Which one fits you better?
 
-Create a comprehensive synthesis of the week's work.
+**🎯 For Doers & Project Managers:**
+```
+/weekly
+```
+30-minute structured GTD review
+- **Focus**: "What did I accomplish? What's next?"
+- **Output**: Goal alignment, metrics, actionable tasks
+- **Best for**: Job search, project tracking, execution-oriented work
 
+**🧠 For Thinkers & Researchers:**
 ```
 /weekly-synthesis
 ```
+60-90 minute deep pattern analysis
+- **Focus**: "What did I learn? What themes emerged?"
+- **Output**: Insights, connections, energy audit, questions
+- **Best for**: Research, writing, knowledge work, creative projects
 
-Best for: Weekly reviews, pattern recognition
+### PKM System Commands
+
+```
+/onboard
+```
+Load all vault context (run this first when starting with the vault!)
+
+```
+/push
+```
+Git commit & push automation
+
+### Thinking & Research Commands
+
+**🤔 thinking-partner**
+```
+/thinking-partner
+```
+Engage Claude as a thinking partner for exploring complex problems
+- **Best for**: Brainstorming, problem exploration, developing ideas
+
+**🔍 research-assistant**
+```
+/research-assistant
+```
+Conduct thorough research on any topic using your vault
+- **Best for**: Deep dives, literature reviews, knowledge synthesis
+
+**📥 inbox-processor**
+```
+/inbox-processor
+```
+Process and organize items in your Inbox folder
+- **Best for**: Weekly inbox cleanup, organizing captures
 
 ## Creating Custom Commands
 

@@ -297,11 +297,24 @@ node .claude/scripts/doctor.cjs
 #### Commands (Manual Trigger)
 
 ```bash
-/daily      # Start daily reflection
-/weekly     # Start weekly review
-/onboard    # Vault setup wizard
+# Daily Workflow (Complementary)
+/daily         # Morning: Create today's note with template
+/daily-review  # Evening: Reflect on accomplishments & insights
+
+# Weekly Workflow (Choose your style)
+/weekly            # PKM: 30min structured GTD review (for doers)
+/weekly-synthesis  # Core: 60-90min deep analysis (for thinkers)
+
+# PKM System
+/onboard    # Load all vault context (run first!)
 /push       # Git commit & push automation
 ```
+
+**Command Selection Guide**:
+- **Daily**: Use both! `/daily` in morning, `/daily-review` in evening
+- **Weekly**: Choose based on personality
+  - Execution-oriented (job search, projects) → `/weekly`
+  - Reflection-oriented (research, writing) → `/weekly-synthesis`
 
 #### Agents (Background)
 

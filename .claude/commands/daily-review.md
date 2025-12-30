@@ -74,3 +74,16 @@ Create or update a daily note with:
 - Update project status notes
 - Link related discoveries
 - Flag items needing attention
+
+## Related Commands
+
+- `/daily` (PKM) - **Morning**: Create today's note with template (use in morning, before /daily-review)
+- `/weekly` - Create structured GTD weekly review
+- `/weekly-synthesis` - Create deep analytical weekly synthesis
+
+---
+
+*Command Version: 1.0*
+*Compatible with: Claude Code CLI*
+
+**Pro Tip:** Use `/daily` in the morning to create your note, then `/daily-review` in the evening to reflect and plan!

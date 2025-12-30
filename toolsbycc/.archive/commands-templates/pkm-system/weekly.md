@@ -189,9 +189,7 @@ The command automatically:
 - Simplify template
 
 ## Related Commands
-- `/weekly-synthesis` - **Alternative**: 60-90min deep analytical review (more reflective, better for researchers/writers)
 - `/daily` - Create daily note
-- `/daily-review` - Evening reflection and planning
 - `/push` - Commit to Git
 - `/onboard` - Load all context
 

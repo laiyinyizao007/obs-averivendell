@@ -608,8 +608,32 @@ Run with: `/[command-name]` in Claude Code
 - `/thinking-partner` - Explore ideas through questions
 - `/inbox-processor` - Organize your captures
 - `/research-assistant` - Deep dive into topics
-- `/daily-review` - End of day reflection
-- `/weekly-synthesis` - Find patterns in your week
+
+**Daily Workflow (Complementary - Use Both!):**
+- `/daily` (PKM) - **Morning**: Create today's note with template variables ({{date}}, {{date-1}}, {{date+1}})
+- `/daily-review` - **Evening**: Reflect on accomplishments, insights, and set tomorrow's priorities
+
+**Weekly Workflow (Choose Your Style):**
+
+Which one fits you better?
+
+🎯 **For Doers & Project Managers** → `/weekly` (PKM)
+- **Time**: 30 minutes structured
+- **Style**: GTD-based checklist
+- **Focus**: "What did I accomplish? What's next?"
+- **Output**: Goal alignment, metrics, actionable tasks
+- **Best for**: Job search, project tracking, execution-oriented work
+
+🧠 **For Thinkers & Researchers** → `/weekly-synthesis`
+- **Time**: 60-90 minutes reflective
+- **Style**: Deep pattern analysis
+- **Focus**: "What did I learn? What themes emerged?"
+- **Output**: Insights, connections, energy audit, questions
+- **Best for**: Research, writing, knowledge work, creative projects
+
+**PKM System (Goal Tracking & Automation):**
+- `/onboard` - Load all vault context (run this first!)
+- `/push` - Git commit & push automation with smart messages
 
 **Vault Management:**
 - `/create-command` - Build new custom commands
