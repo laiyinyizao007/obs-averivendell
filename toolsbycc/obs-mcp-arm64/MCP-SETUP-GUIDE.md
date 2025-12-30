@@ -118,7 +118,7 @@ chmod +x /home/averypi/Documents/obs-averivendell/toolsbycc/obs-mcp-arm64/mcp-en
 
 ```bash
 # Test environment setup
-source /home/averypi/Documents/obs-averivendell/.env
+source /home/averypi/Documents/obs-averivendell/toolsbycc/obs-mcp-arm64/.env
 echo "API Key: ${OBSIDIAN_API_KEY:0:10}..."  # Shows first 10 chars
 
 # Test REST API directly
