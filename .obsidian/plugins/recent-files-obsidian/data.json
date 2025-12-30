@@ -2,6 +2,10 @@
   "recentFiles": [
     {
       "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "README",
       "path": "06_Metadata/README.md"
     },
     {
@@ -23,10 +27,6 @@
     {
       "basename": "CLAUDE",
       "path": "CLAUDE.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "README",
