@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled",
-      "path": "00_Inbox/Untitled.md"
-    },
-    {
       "basename": "CLAUDE",
       "path": "CLAUDE.md"
+    },
+    {
+      "basename": "README",
+      "path": "00_Inbox/README.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "00_Inbox/Untitled.md"
     },
     {
       "basename": "2025-12-30",
@@ -43,10 +47,6 @@
     {
       "basename": "HISTORY",
       "path": "node_modules/send/HISTORY.md"
-    },
-    {
-      "basename": "README",
-      "path": "00_Inbox/README.md"
     },
     {
       "basename": "Home",
