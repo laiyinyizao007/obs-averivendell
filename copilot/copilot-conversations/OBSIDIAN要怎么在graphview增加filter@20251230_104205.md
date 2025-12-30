@@ -91,3 +91,45 @@ Path: Settings > copilot plugin > Basic Tab > Set Keys.
 Or check model config
 Error Details: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse: [403 ] Your API key was reported as leaked. Please use another API key.</errorChunk>
 [Timestamp: 2025/12/30 10:46:08]
+
+**user**: hi
+[Timestamp: 2025/12/30 11:17:36]
+
+**ai**: Hello! How can I help you today?
+[Timestamp: 2025/12/30 11:17:37]
+
+**user**: OBSIDIAN要怎么在graphview增加filter，不显示某些文件
+
+[Timestamp: 2025/12/30 11:18:08]
+
+**ai**: 要在 Obsidian 的 Graph View 中增加筛选器来**不显示某些文件**，你可以使用“文件 (Files)”筛选器并结合排除（negation）语法。
+
+以下是具体步骤：
+
+1.  **打开 Graph View**:
+    *   点击左侧边栏的 Graph View 图标。
+    *   或者使用命令面板（`Ctrl/Cmd + P`），输入 "Graph View" 并选择 "Open Graph View"。
+
+2.  **打开筛选器面板**:
+    *   在 Graph View 的左上角，点击漏斗形状的图标（Filter 按钮）。
+
+3.  **使用“文件 (Files)”筛选器进行排除**:
+    *   在弹出的筛选器侧边栏中，找到 **“文件 (Files)”** 输入框。
+    *   要排除某个文件，你需要在文件名前面加上一个减号 `-`。
+
+    *   **示例**:
+        *   如果你想排除名为 `Daily Note 2023-10-27.md` 的文件，你可以在“文件 (Files)”输入框中输入：
+            `- "Daily Note 2023-10-27"`
+            （注意：如果文件名包含空格，最好用双引号 `""` 包裹起来。）
+
+        *   如果你想排除多个文件，可以在它们之间用空格分隔，每个文件名前都加上 `-`：
+            `- "Daily Note 2023-10-27" - "Meeting Notes.md"`
+
+        *   你也可以使用通配符 `*` 来排除符合特定模式的文件。例如，要排除所有以 "Daily Note" 开头的文件：
+            `- "Daily Note*"`
+
+        *   要排除某个文件夹下的所有文件，你可以使用路径和通配符。例如，排除 `Templates` 文件夹下的所有文件：
+            `- "Templates/*"`
+
+通过这种方式，你可以在 Graph View 中精确地控制哪些文件不被显示，从而更好地聚焦于你想要查看的笔记关系。
+[Timestamp: 2025/12/30 11:18:13]
