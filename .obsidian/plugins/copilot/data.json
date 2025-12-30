@@ -12,7 +12,7 @@
   "azureOpenAIApiDeploymentName": "",
   "azureOpenAIApiVersion": "",
   "azureOpenAIApiEmbeddingDeploymentName": "",
-  "googleApiKey": "AIzaSyBxFxElXpl_w5rELCB9mml85DReAAanofQ",
+  "googleApiKey": "AIzaSyA1grnkb9QelX5VxMlcDSqachW5reBL4g4",
   "openRouterAiApiKey": "",
   "xaiApiKey": "",
   "mistralApiKey": "",
@@ -21,7 +21,7 @@
   "amazonBedrockRegion": "",
   "siliconflowApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "google/gemini-2.5-flash|openrouterai",
+  "defaultModelKey": "gemini-2.5-flash-lite|google",
   "embeddingModelKey": "text-embedding-3-small|openai",
   "temperature": 0.1,
   "maxTokens": 6000,
@@ -262,6 +262,16 @@
     {
       "name": "gemini-2.5-flash-image",
       "provider": "google",
+      "enabled": true
+    },
+    {
+      "name": "gpt-4o-mini",
+      "provider": "openai",
+      "enabled": true
+    },
+    {
+      "name": "gpt-4o-2024-05-13",
+      "provider": "openai",
       "enabled": true
     }
   ],
