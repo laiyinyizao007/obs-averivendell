@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "obsidian": {
+      "command": "/home/averypi/Documents/obs-averivendell/mcp-env/bin/python3",
+      "args": [
+        "-m", "obsidian_mcp.server",
+        "--vault-path", "/home/averypi/Documents/obs-averivendell"
+      ],
+      "cwd": "/home/averypi/Documents/obs-averivendell",
+      "env": {}
+    }
+  }
+}

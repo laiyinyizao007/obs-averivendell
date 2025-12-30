@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "01_Projects/README.md"
+    },
+    {
+      "basename": "Software Architecture",
+      "path": "Software Architecture.md"
+    },
+    {
+      "basename": "CHANGELOG",
+      "path": "CHANGELOG.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "README",
+      "path": "02_Areas/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "06_Metadata/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "03_Resources/README.md"
+    },
+    {
       "basename": "HISTORY",
       "path": "node_modules/send/HISTORY.md"
     },
@@ -19,10 +51,6 @@
     {
       "basename": "Common Claude Code Prompts",
       "path": "06_Metadata/Reference/Common Claude Code Prompts.md"
-    },
-    {
-      "basename": "Software Architecture",
-      "path": "Software Architecture.md"
     }
   ],
   "omittedPaths": [],
