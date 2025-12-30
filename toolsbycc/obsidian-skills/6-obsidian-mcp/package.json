@@ -1,0 +1,19 @@
+{
+  "name": "obsidian-mcp-manager",
+  "version": "1.0.0",
+  "description": "Manage Obsidian MCP Server container lifecycle",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit && node esbuild.config.mjs production"
+  },
+  "keywords": ["obsidian", "mcp", "docker", "container"],
+  "author": "Avery",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "obsidian": "latest",
+    "typescript": "5.3.3",
+    "esbuild": "0.19.8"
+  }
+}
