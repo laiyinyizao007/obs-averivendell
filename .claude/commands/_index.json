@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "registry": {
+    "pkm": {
+      "enabled": true,
+      "commands": [
+        "daily",
+        "weekly",
+        "onboard",
+        "push"
+      ],
+      "path": "commands/pkm/",
+      "layer": 2
+    }
+  }
+}
