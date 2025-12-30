@@ -22,15 +22,17 @@
       }
     },
     "layer3": {
-      "enabled": false,
+      "enabled": true,
       "features": {
         "mcpServer": {
           "enabled": false,
           "port": 22360
         },
         "cliPlugin": {
-          "enabled": false,
-          "cliPath": ""
+          "enabled": true,
+          "cliPath": "/usr/bin/claude",
+          "pluginId": "claude-code-integration",
+          "pluginVersion": "1.0.11"
         }
       }
     }
