@@ -12,7 +12,7 @@
   "azureOpenAIApiDeploymentName": "",
   "azureOpenAIApiVersion": "",
   "azureOpenAIApiEmbeddingDeploymentName": "",
-  "googleApiKey": "AIzaSyA1grnkb9QelX5VxMlcDSqachW5reBL4g4",
+  "googleApiKey": "AIzaSyCAv0_6cIjnPC6DMo_fVfXkY3F54RwvrQE",
   "openRouterAiApiKey": "",
   "xaiApiKey": "",
   "mistralApiKey": "",
@@ -21,7 +21,7 @@
   "amazonBedrockRegion": "",
   "siliconflowApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "gemini-2.5-flash|google",
+  "defaultModelKey": "gemini-2.5-flash-lite|google",
   "embeddingModelKey": "text-embedding-3-small|openai",
   "temperature": 0.1,
   "maxTokens": 6000,
@@ -273,6 +273,34 @@
       "name": "gpt-4o-2024-05-13",
       "provider": "openai",
       "enabled": true
+    },
+    {
+      "name": "gpt-5.2",
+      "provider": "3rd party (openai-format)",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "https://www.88code.org/openai/v1",
+      "apiKey": "",
+      "isEmbeddingModel": false,
+      "capabilities": [
+        "reasoning"
+      ],
+      "stream": true,
+      "displayName": "Codex[88code]",
+      "enableCors": true,
+      "openAIOrgId": ""
+    },
+    {
+      "name": "gpt5.2",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": false,
+      "capabilities": [],
+      "stream": true,
+      "openAIOrgId": ""
     }
   ],
   "activeEmbeddingModels": [
