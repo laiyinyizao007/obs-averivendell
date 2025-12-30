@@ -126,7 +126,7 @@ curl -k -H "Authorization: Bearer $OBSIDIAN_API_KEY" \
   https://localhost:27124/vault
 
 # Test MCP server
-cd /home/averypi/Documents/obs-averivendell
+cd /home/averypi/Documents/obs-averivendell/toolsbycc/obs-mcp-arm64
 ./mcp-env/bin/mcp-obsidian --version
 ```
 
