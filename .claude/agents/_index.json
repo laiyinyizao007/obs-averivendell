@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "registry": {
     "pkm": {
-      "enabled": false,
+      "enabled": true,
       "agents": [
         "note-organizer",
         "weekly-reviewer",

@@ -2,14 +2,14 @@
   "version": "1.0.0",
   "registry": {
     "plugin-dev": {
-      "enabled": false,
+      "enabled": true,
       "type": "core",
       "path": "skills/plugin-dev/SKILL.md",
       "description": "Obsidian plugin development skill with 27 ESLint rules",
       "layer": 1
     },
     "pkm": {
-      "enabled": false,
+      "enabled": true,
       "type": "automation",
       "path": "skills/pkm/",
       "description": "PKM system with goal tracking and workflow automation",

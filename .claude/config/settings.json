@@ -2,14 +2,14 @@
   "version": "2.0.0",
   "layers": {
     "layer1": {
-      "enabled": false,
+      "enabled": true,
       "description": "Foundation - Plugin Dev Skill"
     },
     "layer2": {
-      "enabled": false,
+      "enabled": true,
       "features": {
         "pkm": {
-          "enabled": false,
+          "enabled": true,
           "permissions": {
             "fileRead": ["*"],
             "fileWrite": ["00_Inbox", "06_Metadata"],
@@ -37,11 +37,11 @@
   },
   "featureToggles": {
     "goalTracking": {
-      "enabled": false,
+      "enabled": true,
       "strategy": "pkm"
     },
     "weeklyReview": {
-      "enabled": false,
+      "enabled": true,
       "pipeline": ["pkm/collection"]
     }
   }
