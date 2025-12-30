@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "obsidian": {
-      "command": "/home/averypi/Documents/obs-averivendell/mcp-env/bin/mcp-obsidian",
+      "command": "/home/averypi/Documents/obs-averivendell/toolsbycc/obs-mcp-arm64/mcp-env/bin/mcp-obsidian",
       "args": [],
       "cwd": "/home/averypi/Documents/obs-averivendell",
       "env": {

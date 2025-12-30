@@ -7,6 +7,16 @@
     "auto_save": true,
     "context_awareness": true
   },
+  "mcpServers": {
+      "obsidian": {
+        "command": "/home/averypi/Documents/obs-averivendell/mcp-env/bin/mcp-obsidian",
+        "args": [],
+        "env": {
+          "OBSIDIAN_API_KEY": "f8df28d32e3777885a5318ff1cb6695355c2ee3e8fa5ae7f516d95aaf550a41a",
+          "OBSIDIAN_API_URL": "https://localhost:27124"
+        }
+      }
+    },
   "commands": {
     "thinking-partner": {
       "description": "Collaborative thinking and exploration",

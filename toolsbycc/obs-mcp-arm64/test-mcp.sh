@@ -2,7 +2,7 @@
 
 # Simple script to test MCP server connectivity
 VAULT_PATH="/home/averypi/Documents/obs-averivendell"
-PYTHON_ENV="$VAULT_PATH/mcp-env/bin/python3"
+PYTHON_ENV="$VAULT_PATH/toolsbycc/obs-mcp-arm64/mcp-env/bin/python3"
 
 echo "Testing MCP Server for Obsidian"
 echo "Vault path: $VAULT_PATH"
@@ -27,7 +27,7 @@ echo "Attempting to start MCP server..."
 cd "$VAULT_PATH"
 $PYTHON_ENV -c "
 import sys
-sys.path.insert(0, 'mcp-env/lib/python3.13/site-packages')
+sys.path.insert(0, 'toolsbycc/obs-mcp-arm64/mcp-env/lib/python3.13/site-packages')
 try:
     from obsidian_mcp import server
     print('Import successful!')

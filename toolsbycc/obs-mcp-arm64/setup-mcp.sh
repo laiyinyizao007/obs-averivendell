@@ -11,4 +11,4 @@ echo "API URL: $OBSIDIAN_API_URL"
 echo "Vault: $VAULT_PATH"
 
 cd "$VAULT_PATH"
-./mcp-env/bin/mcp-obsidian --help
+./toolsbycc/obs-mcp-arm64/mcp-env/bin/mcp-obsidian --help

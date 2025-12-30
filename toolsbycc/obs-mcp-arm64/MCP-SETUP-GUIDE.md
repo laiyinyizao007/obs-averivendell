@@ -38,7 +38,7 @@ ps aux | grep -i obsidian
 
 ### Step 2: Test MCP Server
 ```bash
-cd /home/averypi/Documents/obs-averivendell
+cd /home/averypi/Documents/obs-averivendell/toolsbycc/obs-mcp-arm64
 source .env
 ./mcp-env/bin/mcp-obsidian --help
 ```
@@ -50,7 +50,7 @@ Add this to your Claude Desktop MCP configuration:
 {
   "mcpServers": {
     "obsidian": {
-      "command": "/home/averypi/Documents/obs-averivendell/mcp-env/bin/mcp-obsidian",
+      "command": "/home/averypi/Documents/obs-averivendell/toolsbycc/obs-mcp-arm64/mcp-env/bin/mcp-obsidian",
       "args": [],
       "cwd": "/home/averypi/Documents/obs-averivendell",
       "env": {
@@ -111,7 +111,7 @@ curl -k -H "Authorization: Bearer f8df28d32e3777885a5318ff1cb6695355c2ee3e8fa5ae
 **3. Permission errors:**
 ```bash
 # Ensure the MCP environment has proper permissions
-chmod +x /home/averypi/Documents/obs-averivendell/mcp-env/bin/mcp-obsidian
+chmod +x /home/averypi/Documents/obs-averivendell/toolsbycc/obs-mcp-arm64/mcp-env/bin/mcp-obsidian
 ```
 
 ### Validation Commands
