@@ -1,21 +1,21 @@
 {
   "collapse-filter": false,
-  "search": "path:02_Areas  ",
+  "search": "path:02_Area",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "",
+      "query": "[]",
       "color": {
         "a": 1,
         "rgb": 14048348
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
