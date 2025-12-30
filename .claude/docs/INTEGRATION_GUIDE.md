@@ -27,7 +27,7 @@ This integration combines 5 high-quality Obsidian skills from GitHub into a unif
 |---------|-------|---------|--------|
 | **Plugin Dev Skill** | Layer 1 | Foundation - Obsidian plugin development guidelines | ✅ Integrated |
 | **PKM System** | Layer 2 | Automation - Goal tracking & workflow automation | ✅ Integrated |
-| **Second Brain** | Layer 2 | Intelligence - Self-evolving knowledge system | ⏸️ Deferred |
+| **Second Brain** | Layer 2 | Intelligence - Self-evolving knowledge system | ✅ Integrated |
 | **MCP Server** | Layer 3 | Integration - MCP server for external tools | ⏸️ Deferred |
 | **CLI Plugin** | Layer 3 | Integration - Obsidian UI for Claude Code | ✅ Integrated |
 
@@ -229,7 +229,7 @@ node .claude/scripts/doctor.cjs
 
 ### Goal Tracking Strategies
 
-| Feature | PKM Strategy (Current) | Second Brain Strategy (Disabled) |
+| Feature | PKM Strategy (Current) | Second Brain Strategy (Enabled) |
 |---------|------------------------|----------------------------------|
 | **Approach** | Structured, explicit | AI-driven, implicit |
 | **Input** | Manual entry | Automatic from notes |

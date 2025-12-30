@@ -16,7 +16,7 @@
       "layer": 2
     },
     "second-brain": {
-      "enabled": false,
+      "enabled": true,
       "type": "intelligence",
       "path": "skills/second-brain/",
       "description": "Self-evolving second brain with 6 auto-activating skills",

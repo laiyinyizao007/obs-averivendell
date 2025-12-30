@@ -13,7 +13,7 @@
 |-------|--------|---------|------------|------------|-----------------|
 | **Layer 1** | ✅ Enabled | Foundation | 1 skill, 8 refs | Low | Everyone |
 | **Layer 2 - PKM** | ✅ Enabled | Automation | 3 skills, 4 commands, 4 agents | Medium | Job search, projects |
-| **Layer 2 - Second Brain** | ⏸️ Disabled | Intelligence | 6 skills, auto-evolving | High | Long-term knowledge work |
+| **Layer 2 - Second Brain** | ✅ Enabled | Intelligence | 6 skills, auto-evolving | High | Long-term knowledge work |
 | **Layer 3 - CLI Plugin** | ✅ Enabled | UI Integration | Obsidian plugin | Low | Interactive users |
 | **Layer 3 - MCP Server** | ⏸️ Disabled | External Integration | API server | Medium | Tool developers |
 
@@ -63,7 +63,7 @@
 
 ---
 
-### Second Brain Strategy (Disabled - Optional)
+### Second Brain Strategy (Enabled)
 
 **Philosophy**: Implicit, emergent, AI-driven
 
