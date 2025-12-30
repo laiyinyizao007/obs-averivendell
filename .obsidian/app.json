@@ -1,1 +1,8 @@
-{}
+{
+  "trashOption": "local",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00_Inbox",
+  "attachmentFolderPath": "05_Attachments",
+  "alwaysUpdateLinks": true,
+  "uriCallbacks": true
+}

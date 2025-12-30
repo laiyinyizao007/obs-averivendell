@@ -1,1 +1,8 @@
-{}
+{
+  "theme": "obsidian",
+  "accentColor": "#d19fc7",
+  "cssTheme": "Blue Topaz",
+  "interfaceFontFamily": "Helvetica",
+  "textFontFamily": "Helvetica",
+  "monospaceFontFamily": "Helvetica"
+}
