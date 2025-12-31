@@ -137,7 +137,13 @@ export class DockerManager {
      */
     private async execDocker(args: string[]): Promise<string> {
         return new Promise((resolve, reject) => {
-            const dockerProcess = spawn('docker', args);
+            // 使用 Docker 完整路径，因为 Electron 环境的 PATH 可能找不到 docker
+            // 尝试常见路径：/usr/bin/docker (Linux), /usr/local/bin/docker (macOS/Homebrew)
+            const dockerPath = process.platform === 'darwin'
+                ? '/usr/local/bin/docker'
+                : '/usr/bin/docker';
+
+            const dockerProcess = spawn(dockerPath, args);
             let stdout = '';
             let stderr = '';
 
