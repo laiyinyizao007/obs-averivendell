@@ -50,9 +50,15 @@ export default class ObsidianMCPPlugin extends Plugin {
             callback: () => this.stopContainer()
         });
 
-        // 5. 异步启动容器（不阻塞）
+        // 5. 等待 Obsidian 完全启动后再启动容器
         if (this.settings.autoStart) {
-            this.startContainerAsync();
+            this.app.workspace.onLayoutReady(() => {
+                // 额外延迟确保所有服务完全初始化
+                setTimeout(() => {
+                    console.log('Obsidian layout ready, starting MCP container...');
+                    this.startContainerAsync();
+                }, 2000); // 2秒延迟
+            });
         }
 
         // 6. 注册设置面板

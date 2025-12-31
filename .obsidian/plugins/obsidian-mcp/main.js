@@ -640,7 +640,12 @@ var ObsidianMCPPlugin = class extends import_obsidian4.Plugin {
       callback: () => this.stopContainer()
     });
     if (this.settings.autoStart) {
-      this.startContainerAsync();
+      this.app.workspace.onLayoutReady(() => {
+        setTimeout(() => {
+          console.log("Obsidian layout ready, starting MCP container...");
+          this.startContainerAsync();
+        }, 2e3);
+      });
     }
     this.addSettingTab(new SettingsTab(this.app, this));
     console.log("Obsidian MCP Manager plugin loaded");
