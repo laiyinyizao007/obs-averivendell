@@ -155,7 +155,8 @@ var DockerManager = class {
    */
   async execDocker(args) {
     return new Promise((resolve, reject) => {
-      const dockerProcess = (0, import_child_process.spawn)("docker", args);
+      const dockerPath = process.platform === "darwin" ? "/usr/local/bin/docker" : "/usr/bin/docker";
+      const dockerProcess = (0, import_child_process.spawn)(dockerPath, args);
       let stdout = "";
       let stderr = "";
       dockerProcess.stdout.on("data", (data) => {
