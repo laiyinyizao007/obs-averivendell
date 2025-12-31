@@ -189,24 +189,32 @@ ls -la /home/averypi/Documents/obs-averivendell/.obsidian/plugins/obsidian-mcp/
 
 ### 问题 2：`spawn docker ENOENT` 错误
 
-**症状**：控制台显示 `Failed to spawn docker process: spawn docker ENOENT`
+**症状**：控制台显示 `Failed to spawn docker process: spawn docker ENOENT` 或 `/bin/sh: line 1: /usr/bin/docker: No such file or directory`
 
-**原因**：Obsidian 的 Electron 环境无法找到 Docker 可执行文件
+**原因**：Electron 环境中 Docker 命令解析问题
 
-**解决**：已在 v1.0.0 修复（使用绝对路径 + shell 模式）
+**解决**：已在 v1.0.0 修复（使用 shell 模式 + PATH 环境变量解析）
 
-**如果仍有问题**，检查 Docker 路径：
-```bash
-which docker
-# Linux: 应该是 /usr/bin/docker
-# macOS: 应该是 /usr/local/bin/docker
+当前实现使用 `'docker'` 命令名，让 shell 通过系统 PATH 自动查找 Docker：
+
+```typescript
+// docker-manager.ts 第 138-147 行
+private async execDocker(args: string[]): Promise<string> {
+    return new Promise((resolve, reject) => {
+        // 使用 'docker' 命令，让 shell 通过 PATH 环境变量解析
+        const dockerProcess = spawn('docker', args, { shell: true });
+        // ...
+    });
+}
 ```
 
-如果路径不同，修改 `docker-manager.ts` 第 142-144 行：
-```typescript
-const dockerPath = process.platform === 'darwin'
-    ? '/your/actual/path/docker'  // 修改这里
-    : '/usr/bin/docker';
+**如果仍有问题**，验证 Docker 在 PATH 中：
+```bash
+which docker
+# 应该返回 Docker 路径（如 /usr/bin/docker 或 /usr/local/bin/docker）
+
+echo $PATH
+# 确认 PATH 包含 Docker 所在目录
 ```
 
 ---
@@ -276,6 +284,36 @@ docker ps
 ---
 
 ## 📝 开发日志
+
+### 2025-12-31 Session 5 - 第三次修复部署
+
+**问题**：Shell 模式启用后仍报 `/bin/sh: line 1: /usr/bin/docker: No such file or directory`
+
+**根因**：虽然 shell 模式解决了动态链接问题，但硬编码的绝对路径 `/usr/bin/docker` 在 Electron 的 shell 环境中不可访问。系统 PATH 环境变量能正确解析 `docker` 命令。
+
+**修复**：移除平台检测和硬编码路径，使用 `'docker'` 命令名，让 shell 通过 PATH 环境变量解析
+
+```typescript
+// docker-manager.ts 第 138-147 行
+private async execDocker(args: string[]): Promise<string> {
+    return new Promise((resolve, reject) => {
+        // 使用 'docker' 命令，让 shell 通过 PATH 环境变量解析
+        // shell 模式提供完整的系统环境，包括正确的 PATH
+        const dockerProcess = spawn('docker', args, { shell: true });
+        // ...
+    });
+}
+```
+
+**原理**：Shell 模式提供完整系统环境包括 PATH 变量。使用命令名而非绝对路径让 shell 自然解析，更可移植且与终端行为一致。
+
+**部署**：
+- 编译：`npm run build`
+- 复制：`build/main.js` → `.obsidian/plugins/obsidian-mcp/main.js`
+- 时间戳：2025-12-31 Session 5
+- 状态：已部署，待用户测试验证
+
+---
 
 ### 2025-12-31 21:00 - 第二次修复部署
 

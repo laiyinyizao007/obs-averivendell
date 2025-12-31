@@ -137,14 +137,9 @@ export class DockerManager {
      */
     private async execDocker(args: string[]): Promise<string> {
         return new Promise((resolve, reject) => {
-            // 使用 Docker 完整路径，因为 Electron 环境的 PATH 可能找不到 docker
-            // 尝试常见路径：/usr/bin/docker (Linux), /usr/local/bin/docker (macOS/Homebrew)
-            const dockerPath = process.platform === 'darwin'
-                ? '/usr/local/bin/docker'
-                : '/usr/bin/docker';
-
-            // 使用 shell 模式执行，解决 Electron 环境中动态链接库的问题
-            const dockerProcess = spawn(dockerPath, args, { shell: true });
+            // 使用 'docker' 命令，让 shell 通过 PATH 环境变量解析
+            // shell 模式提供完整的系统环境，包括正确的 PATH
+            const dockerProcess = spawn('docker', args, { shell: true });
             let stdout = '';
             let stderr = '';
 
