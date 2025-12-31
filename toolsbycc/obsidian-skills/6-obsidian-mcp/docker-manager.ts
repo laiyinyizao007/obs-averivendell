@@ -143,7 +143,8 @@ export class DockerManager {
                 ? '/usr/local/bin/docker'
                 : '/usr/bin/docker';
 
-            const dockerProcess = spawn(dockerPath, args);
+            // 使用 shell 模式执行，解决 Electron 环境中动态链接库的问题
+            const dockerProcess = spawn(dockerPath, args, { shell: true });
             let stdout = '';
             let stderr = '';
 
