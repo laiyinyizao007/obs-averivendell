@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "obsidian": {
+      "command": "/home/averypi/Documents/obs-averivendell/toolsbycc/obs-mcp-arm64/mcp-env/bin/mcp-obsidian",
+      "args": [],
+      "cwd": "/home/averypi/Documents/obs-averivendell",
+      "env": {
+        "OBSIDIAN_API_KEY": "f8df28d32e3777885a5318ff1cb6695355c2ee3e8fa5ae7f516d95aaf550a41a",
+        "OBSIDIAN_API_URL": "https://localhost:27124",
+        "VAULT_PATH": "/home/averypi/Documents/obs-averivendell"
+      }
+    }
+  }
+}
